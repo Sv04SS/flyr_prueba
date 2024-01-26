@@ -1,0 +1,47 @@
+.menu {
+    background-color: #fff;
+    height: 22rem;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+
+}
+
+.menu__title h2 {
+    font-weight: 300;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.menu__item {
+    border-bottom: 1px solid #605f5e3d;
+}
+
+.menu__item h4 {
+    font-weight: 300;
+    padding: 1.2rem 15%;
+
+}
+
+//recordar encontrar solucion para quitar esto y no repetir codigo
+.menu__itemEnd h4 {
+    font-weight: 300;
+    padding: 1.1rem 15%;
+}
+
+
+.menu__item h4:before {
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 20px solid $secundaryColor;
+
+}
+
+//recordar encontrar solucion para quitar esto y no repetir codigo
+.menu__itemEnd h4:before{
+    content: "";
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 20px solid $secundaryColor;
+}
+
